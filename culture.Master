@@ -1,0 +1,24 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="culture.master.cs" Inherits="HTTP_5101_FINAL_PatelKrishna.culture" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="Content/style.css" />
+</head>
+<body>
+    <h1 id="main-header"><a href="home.aspx">Creative culture of India</a></h1>
+    <form id="form1" runat="server">
+
+        <div>
+            
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server"></asp:ContentPlaceHolder>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder3" runat="server"></asp:ContentPlaceHolder>
+
+        </div>
+
+    </form>
+</body>
+</html>

@@ -1,0 +1,107 @@
+﻿html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-size: 1em;
+    font-family: Franklin Gothic Book;
+}
+/*For the header in add, update culture pages*/
+#header {
+    background-color: #7786a8;
+    padding: 0.09em;
+    color: white;
+}
+
+#main-header a {
+    text-decoration: none;
+    color: white;
+    
+}
+#main-header {
+    background-color: #395596;
+    padding: 1em;
+}
+
+
+h1 {
+    text-align: center;
+    font-size: 2em;
+    padding:0.05em;
+}
+
+
+.crud_button {
+    background-color: #7786a8;
+    color: white;
+    font-size: 16px;
+    padding: 8px;
+    margin: 2px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+
+    .crud_button:hover {
+        background-color: #7f8fb3;
+        color: white;
+        font-weight: bold;
+        border-color: aliceblue;
+    }
+
+
+
+#table_container {
+    display: flex;
+    flex-flow: row;
+    border: solid 1px black;
+    margin: auto;
+}
+
+.container {
+    max-width: 1200px;
+    margin:0 auto;
+}
+
+.column_name {
+    font-size: 1.5em;
+    font-weight: bold;
+    background-color: #a3b6e3;
+    color: black;
+}
+
+.column {
+    flex: 1 0 0;
+    display: flex;
+    flex-flow: column;
+}
+
+    .column div {
+        text-align: center;
+        padding: 1em;
+        /*flex:1 0 0;*/
+        height: 100px;
+    }
+
+        .column div:nth-child(even) {
+            background-color: #c6d5f7;
+        }
+
+label {
+    margin: 10px;
+}
+
+.col-4 {
+    float: left;
+    width: 25%;
+}
+
+.col-8 {
+    float: left;
+    width: 50%;
+}
